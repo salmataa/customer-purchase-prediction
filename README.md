@@ -74,6 +74,7 @@ The Logistic Regression model performed better overall and was selected as the f
 - RFM features are effective in capturing customer behavior patterns
 - Logistic Regression performed slightly better than KNN
 - Strong ROC-AUC (~0.91) indicates good model performance
+  
 The model can successfully distinguish high-value vs low-value customers
 
 ## Tech Stack
