@@ -97,7 +97,7 @@ pip install pandas numpy matplotlib scikit-learn openpyxl
 ```
 3. Run:
 ```
-python retail_model.py
+python customer-purchase-prediction.py
 ```
 
 ---
