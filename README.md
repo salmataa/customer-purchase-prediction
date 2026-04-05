@@ -1,15 +1,15 @@
 # Customer Purchase Prediction Model
 
-This project uses machine learning to identify high-value repeat customers based on retail transaction data.
-The goal is to help businesses better understand customer behavior and make data-driven decisions to improve retention, targeting, and revenue.
+This project applies machine learning to predict high-value repeat customers using historical retail transaction data.
+
+The objective is to help businesses identify which customers are most likely to return and generate higher lifetime value, enabling more effective marketing and retention strategies.
 
 ## Project Overview / Business Problem
-Companies often struggle to identify which customers are most valuable and likely to return.
-By predicting high-value repeat customers, businesses can:
-- Focus marketing efforts on the right audience
-- Improve customer retention strategies
-- Increase long-term revenue
-- Identify loyal customers
+Companies often lack visibility into which customers will continue purchasing.
+By predicting repeat high-value customers, businesses can:
+- Improve customer retention
+- Optimize marketing spend
+- Increase customer lifetime value (CLV)
 - Predict future purchasing behavior
 
 ## Dataset
@@ -37,7 +37,8 @@ Customers were grouped using:
 - Recency → Days since last purchase
 - Frequency → Number of transactions
 - Monetary → Total amount spent
-These features help quantify customer value and behavior.
+  
+These features are widely used in industry to measure customer value and behavior.
 
 3. Model Development
 Two classification models were built and compared:
@@ -57,7 +58,7 @@ Performance was evaluated using:
 
 ## Model Performance
 
-### Logistic Regression
+### Logistic Regression (Final Model)
 - Accuracy: ~0.87
 - ROC-AUC: ~0.91
 
@@ -72,8 +73,8 @@ The Logistic Regression model performed better overall and was selected as the f
 
 ## Key Takeaways
 - RFM features are effective in capturing customer behavior patterns
-- Logistic Regression performed slightly better than KNN
-- Strong ROC-AUC (~0.91) indicates good model performance
+- Logistic Regression captured customer behavior patterns more effectively than KNN
+- Proper feature selection and removing data leakage significantly improved model reliability
   
 The model can successfully distinguish high-value vs low-value customers
 
@@ -104,8 +105,8 @@ python retail_model.py
 ## Business Impact
 This model be used by companies to:
 - Identify loyal and high-value customers
-- Personalize marketing campaigns
-- Allocate resources more efficiently
+- Target marketing campaigns more effectively
+- Increase retention and long-term revenue
 - Increase customer lifetime value (CLV)
 
 ---
