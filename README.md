@@ -102,7 +102,7 @@ python retail_model.py
 ---
 
 ## Business Impact
-This model can help companies:
+This model be used by companies to:
 - Identify loyal and high-value customers
 - Personalize marketing campaigns
 - Allocate resources more efficiently
