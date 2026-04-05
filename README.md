@@ -22,7 +22,8 @@ Contains transactional data including:
 - Customer IDs
 - Country
 
-Dataset is not included due to size limitations
+Dataset is not included due to size limitations.
+
 You can download it from the UCI Machine Learning Repository
 
 ## Methodology
