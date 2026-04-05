@@ -23,6 +23,18 @@ The goal of this project is to help businesses:
 - ROC-AUC Score: ~0.90
 - Strong model performance in predicting high-value customers
 
+## Model Performance
+
+### Logistic Regression
+- Accuracy: ~0.87
+- ROC-AUC: ~0.91
+
+### K-Nearest Neighbors (KNN)
+- Accuracy: ~0.85
+- ROC-AUC: ~0.89
+
+The Logistic Regression model performed better overall and was selected as the final model.
+
 ## ROC Curve
 ![ROC Curve](roc_curve.png)
 
