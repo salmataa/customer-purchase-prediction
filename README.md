@@ -21,6 +21,7 @@ Contains transactional data including:
 - Transaction dates
 - Customer IDs
 - Country
+
 Dataset is not included due to size limitations
 You can download it from the UCI Machine Learning Repository
 
